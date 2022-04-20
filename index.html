@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+
+</head>
+
+<body>
+  <h1>Ctrl Shift J</h2>
+  <p id="demo">calulate</p>
+  <h1>Tokenomics</h2>
+  <div style="width: 80.00%;">
+    <canvas id="myChart6" style="width:100%;max-width:500px"></canvas>
+  </div>
+  <h1>Sanehood Dashboard</h1>
+  <!-- <p id="demo">Session Results</p> -->
+  <h2>Session Results</h2>
+  <div style="width: 80.00%;">
+    <canvas id="myChart5" style="width:100%;max-width:500px"></canvas>
+  </div>
+
+  <h2>Latest Session Statistics</h2>
+  <div class="row">
+    <div class="column">
+      <table style="width:90%">
+        <tr>
+          <th colspan="3">Session Time</th>
+        </tr>
+        <tbody class="greenbox">
+          <tr>
+            <td>7:00</td>
+            <td>45%</td>
+            <td id="reddownarrow">greenuparrow</td>
+          </tr>
+          <tr>
+            <td>minutes</td>
+            <td>up from previous avergae of 5:00</td>
+            <td>nill</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="column">
+      <table style="width:90%">
+        <tr>
+      <th colspan="3">Sanescore</th>
+    </tr>
+        <tbody class="redbox">
+          <tr>
+            <td>7:00</td>
+            <td>45%</td>
+            <td id="greenuparrow">greenuparrow</td>
+          </tr>
+          <tr>
+            <td>minutes</td>
+            <td>up from previous avergae of 5:00</td>
+            <td>nill</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="column">
+
+      <table style="width:90%">
+        <tr>
+      <th colspan="3">Movement</th>
+    </tr>
+        <tbody class="redbox">
+          <tr>
+            <td>7:00</td>
+            <td>45%</td>
+            <td id="greenuparrow">greenuparrow</td>
+          </tr>
+          <tr>
+            <td>minutes</td>
+            <td>up from previous avergae of 5:00</td>
+            <td>nill</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <br>
+    <div class="column">
+      <table onclick="openTab('b1');" style="width:90%">
+        <tr>
+          <th colspan="3">Heart Rate</th>
+        </tr>
+        <tbody class="greenbox">
+          <tr>
+            <td>7:00</td>
+            <td>45%</td>
+            <td id="reddownarrow">greenuparrow</td>
+          </tr>
+          <tr>
+            <td>minutes</td>
+            <td>up from previous avergae of 5:00</td>
+            <td>nill</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="column">
+      <table style="width:90%">
+        <tr>
+        <th colspan="3">Breath Rate</th>
+      </tr>
+        <tbody class="redbox">
+          <tr>
+            <td>7:00</td>
+            <td>45%</td>
+            <td id="greenuparrow">greenuparrow</td>
+          </tr>
+          <tr>
+            <td>minutes</td>
+            <td>up from previous avergae of 5:00</td>
+            <td>nill</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="column">
+
+      <table style="width:90%">
+        <tr>
+        <th colspan="3">Mood</th>
+      </tr>
+        <tbody class="redbox">
+          <tr>
+            <td>7:00</td>
+            <td>45%</td>
+            <td id="greenuparrow">
+              
+              <svg height="50" width="50">
+                <polygon points="25,0 12.5,25 20,25 20,50 30,50 30,25 36.2,25 25,0" style="fill:lime;stroke:rgb(0, 0, 0);stroke-width:3;fill-rule:nonzero;"/>
+                Sorry, your browser does not support inline SVG.
+              </svg>
+
+
+          </td>
+          </tr>
+          <tr>
+            <td>minutes</td>
+            <td>up from previous avergae of 5:00</td>
+            <td>nill</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <h2>Progression Over Time</h2>
+  <div class="row">
+    <div class="column50">
+      <canvas id="myChart" style="width:100%;max-width:500px"></canvas>
+    </div>
+    <div class="column50">
+      <canvas id="myChart2" style="width:100%;max-width:500px"></canvas>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column50">
+      <canvas id="myChart3" style="width:100%;max-width:500px"></canvas>
+    </div>
+    <div class="column50">
+      <canvas id="myChart4" style="width:100%;max-width:500px"></canvas>
+    </div>
+  </div>
+  
+  <script src="js/chart.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/conciousness.js"></script>
+</body>
+
+</html>
